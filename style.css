@@ -41,9 +41,11 @@ nav ul .li{
     color: #FFFFFF;
     padding: 12.5px 16px;
     background-color: #469165;
-    margin-left: 346px;
+    margin-left: 200px;
+    margin-right: 120px;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
 .btn:hover{
@@ -105,6 +107,7 @@ nav ul .li{
     border-radius: 4px;
     cursor: pointer;
     background: #30B868;
+    border: none;
 }
 
 .btn3{
@@ -114,7 +117,7 @@ nav ul .li{
     padding: 16.5px;
     margin-left: 16px;
     border-radius: 4px;
-    border: 2px solid white;
+    border: 1px solid white;
     cursor: pointer;
     background: none;
 }
@@ -127,7 +130,7 @@ nav ul .li{
 }
 
 .note-info h1{
-    margin-bottom: 16px;
+    margin-bottom: 36px;
     font-size: 48px;
     font-weight: 700;
     color: #001931;
@@ -146,7 +149,14 @@ nav ul .li{
    display:flex;
    justify-content: space-between;
    text-align: center;
-   gap: 86px;
+   gap: 55px;
+}
+
+.card-info{
+    /* border: 2px solid white; */
+    width: 322px;
+    box-shadow: 0 0 1px 0;
+    border: none;
 }
 
 .card-info img{
@@ -166,3 +176,98 @@ nav ul .li{
     font-size: 16px;
     font-weight: 400;
 }
+
+.brain-container{
+    
+    padding: 120px;
+}
+
+.brain{
+    display: flex;
+    text-align: left;
+}
+
+.brain-img{
+    margin-right: 60px;
+}
+
+.brain-info{
+    margin-top: 102px;
+}
+
+.brain-info h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #469165;
+}
+
+.brain-info h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.brain-info p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 25px;
+    color: #627382;
+}
+
+.brain-info ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+}
+
+.access-box{
+    margin: 2px 120px 120px 120px;
+    text-align: center;
+    border: 2px solid white;
+    background-color: #F7F6F2;
+}
+
+.access-box h1{
+    font-size: 40px;
+    margin-top: 80px;
+    color: #001931;
+}
+
+.p3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.access-box button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 16.5px;
+    background-color: #469165;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+}
+
+.p4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 80px;
+}
+
+
